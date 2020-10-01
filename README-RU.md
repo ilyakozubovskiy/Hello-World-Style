@@ -1,49 +1,50 @@
-# Fixing Style Issues in "Hello, world!" app
+# Исправление стилистических ошибок в приложении "Hello, world!"
 
-This is a beginner level task for practicing AutoCode tasks management. Translations: [Russian](README-RU.md).
-
-## Get the Project
-
-* [Open a project from your remote repository](https://docs.microsoft.com/en-us/visualstudio/get-started/tutorial-open-project-from-repo) or [get your local copy](https://docs.microsoft.com/en-us/azure/devops/repos/git/clone#clone-from-another-git-provider) with Visual Studio.
+Задача начального уровня для практики навыка управления задачами в AutoCode. Переводы: [Английский](README.md).
 
 
-## Complete the Task
+## Заберите проект
 
-1. [Build the solution](https://docs.microsoft.com/en-us/visualstudio/ide/building-and-cleaning-projects-and-solutions-in-visual-studio).
-    * Click on menu item - _Build\Build Solution_.
-    * Or use default keyboard shortcut - _Ctrl+Shift+B_.
-1. Open [Error List](https://docs.microsoft.com/en-us/visualstudio/ide/find-and-fix-code-errors#review-the-error-list) view.
-    * Click on menu item - _View\Error List_.
-    * Or use default shortcut - _Ctrl+W, E_.
-1. Double-click on a warning in the Error List view. You will get to the [HelloWorld.cs](HelloWorldStyle/HelloWorld.cs) file.
-1. Open Error List view again, and click on a warning "Code" link. You will get to a documentation web-page for a warning.
-1. Go to the [HelloWorld.cs](HelloWorldStyle/HelloWorld.cs) file, and format the current document.
-    * Use default shortcut - _Ctrl+K, Ctrl+D_.
-1. Build the solution again, open Error List view, and compare the number of compiler warnings with the previous number.
-1. Fix all compiler warnings in the [HelloWorld.cs](HelloWorldStyle/HelloWorld.cs) file.
+* [Откройте проект в Visual Studio из внешнего Git-репозитория](https://docs.microsoft.com/ru-ru/visualstudio/get-started/tutorial-open-project-from-repo) или [склонируйте внешний Git-репозиторий на Ваш локальный диск](https://docs.microsoft.com/ru-ru/azure/devops/repos/git/clone#clone-from-another-git-provider) при помощи Visual Studio.
 
 
-## Fix Compiler Issues
+## Завершите задачу
 
-Additional style and code checks are enabled for the projects in this solution to help you maintaining consistency of the project source code and avoiding silly mistakes. [Review the Error List](https://docs.microsoft.com/en-us/visualstudio/ide/find-and-fix-code-errors#review-the-error-list) in Visual Studio to see all compiler warnings and errors.
-
-If a compiler error or warning message is not clear, [review errors details](https://docs.microsoft.com/en-us/visualstudio/ide/find-and-fix-code-errors#review-errors-in-detail) or google the error or warning code to get more information about the issue.
-
-
-## Save Your Work
-
-* [Rebuild your solution](https://docs.microsoft.com/en-us/visualstudio/ide/building-and-cleaning-projects-and-solutions-in-visual-studio) in Visual Studio.
-* Check out the [Error List window](https://docs.microsoft.com/en-us/visualstudio/ide/reference/error-list-window) for compiler errors and warnings. If you have any of those issues, **fix issues** and rebuild the solution again.
-* [Run all unit tests with Test Explorer](https://docs.microsoft.com/en-us/visualstudio/test/run-unit-tests-with-test-explorer) and make sure there are **no failed unit tests**. Fix your code to [make all your unit tests GREEN](https://stackoverflow.com/questions/276813/what-is-red-green-testing).
-* Review all your changes **before** saving your work.
-    * Open "Changes" view in [Team Explorer](https://docs.microsoft.com/en-us/visualstudio/ide/reference/team-explorer-reference).
-    * Click with your right mouse button on a modified file.
-    * Click on "Compare with Unmodified" menu item to open a comparison window.
-* [Stage your changes](https://docs.microsoft.com/en-us/azure/devops/repos/git/commits#stage-your-changes) and [create a commit](https://docs.microsoft.com/en-us/azure/devops/repos/git/commits#create-a-commit).
-* Share your changes by [pushing them to remote repository](https://docs.microsoft.com/en-us/azure/devops/repos/git/pushing).
+1. [Соберите решение](https://docs.microsoft.com/ru-ru/visualstudio/ide/building-and-cleaning-projects-and-solutions-in-visual-studio).
+    * Выберите элемент меню - _Build\Build Solution_.
+    * Или используйте сочетание клавиш - _Ctrl+Shift+B_.
+1. Откройте список ошибкок во вкладке [Error List](https://docs.microsoft.com/ru-ru/visualstudio/ide/find-and-fix-code-errors#review-the-error-list).
+    * Выберите элемент меню - _View\Error List_.
+    * Или используйте сочетание клавиш - _Ctrl+W, E_.
+1. Используйте двойной щелчок мыши на тексте предупреждения компилятора во вкладке Error List. Visual Studio откроет файл [HelloWorld.cs](HelloWorldStyle/HelloWorld.cs) в окне редактирования.
+1. Снова откройте вкладку Error List, используйте одинарный щелчок мыши на ссылке в поле "Code" любого элемента списка в поле. Visual Studio откроет страницу документации для выбранного предупреждения.
+1. Откройте файл [HelloWorld.cs](HelloWorldStyle/HelloWorld.cs) и отформатируйте код в окне редактора.
+    * Используйте сочетание клавиш - _Ctrl+K, Ctrl+D_.
+1. Соберите решение, откройте вкладку Error List и сравните список предупреждений компилятора с списком, который был до этого.
+1. Исправьте все предупреждения компилятора в файле [HelloWorld.cs](HelloWorldStyle/HelloWorld.cs).
 
 
-## See also
+## Исправьте ошибки компилятора
+
+Для всех проектов решения включены дополнительные проверки на стилистические ошибки и добавлены анализаторы кода, чтобы помочь Вам поддерживать целостность кодовой базы и избежать наивных ошибок. Все ошибки и предупреждения компилятора C# доступны в окне Visual Studio [Error List](https://docs.microsoft.com/ru-ru/visualstudio/ide/find-and-fix-code-errors#review-the-error-list).
+
+Если сообщение об ошибке или предупреждение компилятора поставило Вас в тупик, [откройте страницу документации ошибки или предупреждения](https://docs.microsoft.com/ru-ru/visualstudio/ide/find-and-fix-code-errors#review-errors-in-detail) или загуглите код ошибки в поисковике.
+
+
+## Сохраните изменения
+
+* [Пересоберите решение](https://docs.microsoft.com/ru-ru/visualstudio/ide/building-and-cleaning-projects-and-solutions-in-visual-studio) в Visual Studio.
+* Откройте [окно Error List](https://docs.microsoft.com/ru-ru/visualstudio/ide/reference/error-list-window) и проверьте, что в окне нет ошибок и предупреждений компилятора. Если в окне есть ошибки или предупреждения, **исправьте их** и снова пересоберите решение.
+* [Запустите юнит-тесты при помощи Test Explorer](https://docs.microsoft.com/ru-ru/visualstudio/test/run-unit-tests-with-test-explorer). Убедитесь, что все юнит тесты завершаются успешно. [Сделайте все юнит-тесты зелеными](https://stackoverflow.com/questions/276813/what-is-red-green-testing).
+* Обязятельно просмотрите все ваши изменения **перед тем** как сохранить Ваши изменения.
+    * Откройте вкладку "Changes" в окне [Team Explorer](https://docs.microsoft.com/ru-ru/visualstudio/ide/reference/team-explorer-reference).
+    * Правой клавишей мыши нажмите на измененном файле.
+    * Нажмите на пункте меню "Compare with Unmodified" чтобы открыть окно сравнения.
+* [Зафиксируйте изменения](https://docs.microsoft.com/ru-ru/azure/devops/repos/git/commits#stage-your-changes) и [создайте коммит](https://docs.microsoft.com/ru-ru/azure/devops/repos/git/commits#create-a-commit).
+* [Отправьте изменения во внешний репозиторий](https://docs.microsoft.com/ru-ru/azure/devops/repos/git/pushing).
+
+
+## Дополнительная информация
 
 * Visual Studio
   * [Getting Started with Visual Studio 2019](https://www.youtube.com/watch?v=1CgsMtUmVgs)
