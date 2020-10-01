@@ -1,50 +1,50 @@
-# Исправление стилистических ошибок в приложении "Hello, world!"
+п»ї# РСЃРїСЂР°РІР»РµРЅРёРµ СЃС‚РёР»РёСЃС‚РёС‡РµСЃРєРёС… РѕС€РёР±РѕРє РІ РїСЂРёР»РѕР¶РµРЅРёРё "Hello, world!"
 
-Задача начального уровня для практики навыка управления задачами в AutoCode. Переводы: [Английский](README.md).
-
-
-## Заберите проект
-
-* [Откройте проект в Visual Studio из внешнего Git-репозитория](https://docs.microsoft.com/ru-ru/visualstudio/get-started/tutorial-open-project-from-repo) или [склонируйте внешний Git-репозиторий на Ваш локальный диск](https://docs.microsoft.com/ru-ru/azure/devops/repos/git/clone#clone-from-another-git-provider) при помощи Visual Studio.
+Р—Р°РґР°С‡Р° РЅР°С‡Р°Р»СЊРЅРѕРіРѕ СѓСЂРѕРІРЅСЏ РґР»СЏ РїСЂР°РєС‚РёРєРё РЅР°РІС‹РєР° СѓРїСЂР°РІР»РµРЅРёСЏ Р·Р°РґР°С‡Р°РјРё РІ AutoCode. РџРµСЂРµРІРѕРґС‹: [РђРЅРіР»РёР№СЃРєРёР№](README.md).
 
 
-## Завершите задачу
+## Р—Р°Р±РµСЂРёС‚Рµ РїСЂРѕРµРєС‚
 
-1. [Соберите решение](https://docs.microsoft.com/ru-ru/visualstudio/ide/building-and-cleaning-projects-and-solutions-in-visual-studio).
-    * Выберите элемент меню - _Build\Build Solution_.
-    * Или используйте сочетание клавиш - _Ctrl+Shift+B_.
-1. Откройте список ошибкок во вкладке [Error List](https://docs.microsoft.com/ru-ru/visualstudio/ide/find-and-fix-code-errors#review-the-error-list).
-    * Выберите элемент меню - _View\Error List_.
-    * Или используйте сочетание клавиш - _Ctrl+W, E_.
-1. Используйте двойной щелчок мыши на тексте предупреждения компилятора во вкладке Error List. Visual Studio откроет файл [HelloWorld.cs](HelloWorldStyle/HelloWorld.cs) в окне редактирования.
-1. Снова откройте вкладку Error List, используйте одинарный щелчок мыши на ссылке в поле "Code" любого элемента списка в поле. Visual Studio откроет страницу документации для выбранного предупреждения.
-1. Откройте файл [HelloWorld.cs](HelloWorldStyle/HelloWorld.cs) и отформатируйте код в окне редактора.
-    * Используйте сочетание клавиш - _Ctrl+K, Ctrl+D_.
-1. Соберите решение, откройте вкладку Error List и сравните список предупреждений компилятора с списком, который был до этого.
-1. Исправьте все предупреждения компилятора в файле [HelloWorld.cs](HelloWorldStyle/HelloWorld.cs).
+* [РћС‚РєСЂРѕР№С‚Рµ РїСЂРѕРµРєС‚ РІ Visual Studio РёР· РІРЅРµС€РЅРµРіРѕ Git-СЂРµРїРѕР·РёС‚РѕСЂРёСЏ](https://docs.microsoft.com/ru-ru/visualstudio/get-started/tutorial-open-project-from-repo) РёР»Рё [СЃРєР»РѕРЅРёСЂСѓР№С‚Рµ РІРЅРµС€РЅРёР№ Git-СЂРµРїРѕР·РёС‚РѕСЂРёР№ РЅР° Р’Р°С€ Р»РѕРєР°Р»СЊРЅС‹Р№ РґРёСЃРє](https://docs.microsoft.com/ru-ru/azure/devops/repos/git/clone#clone-from-another-git-provider) РїСЂРё РїРѕРјРѕС‰Рё Visual Studio.
 
 
-## Исправьте ошибки компилятора
+## Р—Р°РІРµСЂС€РёС‚Рµ Р·Р°РґР°С‡Сѓ
 
-Для всех проектов решения включены дополнительные проверки на стилистические ошибки и добавлены анализаторы кода, чтобы помочь Вам поддерживать целостность кодовой базы и избежать наивных ошибок. Все ошибки и предупреждения компилятора C# доступны в окне Visual Studio [Error List](https://docs.microsoft.com/ru-ru/visualstudio/ide/find-and-fix-code-errors#review-the-error-list).
-
-Если сообщение об ошибке или предупреждение компилятора поставило Вас в тупик, [откройте страницу документации ошибки или предупреждения](https://docs.microsoft.com/ru-ru/visualstudio/ide/find-and-fix-code-errors#review-errors-in-detail) или загуглите код ошибки в поисковике.
-
-
-## Сохраните изменения
-
-* [Пересоберите решение](https://docs.microsoft.com/ru-ru/visualstudio/ide/building-and-cleaning-projects-and-solutions-in-visual-studio) в Visual Studio.
-* Откройте [окно Error List](https://docs.microsoft.com/ru-ru/visualstudio/ide/reference/error-list-window) и проверьте, что в окне нет ошибок и предупреждений компилятора. Если в окне есть ошибки или предупреждения, **исправьте их** и снова пересоберите решение.
-* [Запустите юнит-тесты при помощи Test Explorer](https://docs.microsoft.com/ru-ru/visualstudio/test/run-unit-tests-with-test-explorer). Убедитесь, что все юнит тесты завершаются успешно. [Сделайте все юнит-тесты зелеными](https://stackoverflow.com/questions/276813/what-is-red-green-testing).
-* Обязятельно просмотрите все ваши изменения **перед тем** как сохранить Ваши изменения.
-    * Откройте вкладку "Changes" в окне [Team Explorer](https://docs.microsoft.com/ru-ru/visualstudio/ide/reference/team-explorer-reference).
-    * Правой клавишей мыши нажмите на измененном файле.
-    * Нажмите на пункте меню "Compare with Unmodified" чтобы открыть окно сравнения.
-* [Зафиксируйте изменения](https://docs.microsoft.com/ru-ru/azure/devops/repos/git/commits#stage-your-changes) и [создайте коммит](https://docs.microsoft.com/ru-ru/azure/devops/repos/git/commits#create-a-commit).
-* [Отправьте изменения во внешний репозиторий](https://docs.microsoft.com/ru-ru/azure/devops/repos/git/pushing).
+1. [РЎРѕР±РµСЂРёС‚Рµ СЂРµС€РµРЅРёРµ](https://docs.microsoft.com/ru-ru/visualstudio/ide/building-and-cleaning-projects-and-solutions-in-visual-studio).
+    * Р’С‹Р±РµСЂРёС‚Рµ СЌР»РµРјРµРЅС‚ РјРµРЅСЋ - _Build\Build Solution_.
+    * РР»Рё РёСЃРїРѕР»СЊР·СѓР№С‚Рµ СЃРѕС‡РµС‚Р°РЅРёРµ РєР»Р°РІРёС€ - _Ctrl+Shift+B_.
+1. РћС‚РєСЂРѕР№С‚Рµ СЃРїРёСЃРѕРє РѕС€РёР±РєРѕРє РІРѕ РІРєР»Р°РґРєРµ [Error List](https://docs.microsoft.com/ru-ru/visualstudio/ide/find-and-fix-code-errors#review-the-error-list).
+    * Р’С‹Р±РµСЂРёС‚Рµ СЌР»РµРјРµРЅС‚ РјРµРЅСЋ - _View\Error List_.
+    * РР»Рё РёСЃРїРѕР»СЊР·СѓР№С‚Рµ СЃРѕС‡РµС‚Р°РЅРёРµ РєР»Р°РІРёС€ - _Ctrl+W, E_.
+1. РСЃРїРѕР»СЊР·СѓР№С‚Рµ РґРІРѕР№РЅРѕР№ С‰РµР»С‡РѕРє РјС‹С€Рё РЅР° С‚РµРєСЃС‚Рµ РїСЂРµРґСѓРїСЂРµР¶РґРµРЅРёСЏ РєРѕРјРїРёР»СЏС‚РѕСЂР° РІРѕ РІРєР»Р°РґРєРµ Error List. Visual Studio РѕС‚РєСЂРѕРµС‚ С„Р°Р№Р» [HelloWorld.cs](HelloWorldStyle/HelloWorld.cs) РІ РѕРєРЅРµ СЂРµРґР°РєС‚РёСЂРѕРІР°РЅРёСЏ.
+1. РЎРЅРѕРІР° РѕС‚РєСЂРѕР№С‚Рµ РІРєР»Р°РґРєСѓ Error List, РёСЃРїРѕР»СЊР·СѓР№С‚Рµ РѕРґРёРЅР°СЂРЅС‹Р№ С‰РµР»С‡РѕРє РјС‹С€Рё РЅР° СЃСЃС‹Р»РєРµ РІ РїРѕР»Рµ "Code" Р»СЋР±РѕРіРѕ СЌР»РµРјРµРЅС‚Р° СЃРїРёСЃРєР° РІ РїРѕР»Рµ. Visual Studio РѕС‚РєСЂРѕРµС‚ СЃС‚СЂР°РЅРёС†Сѓ РґРѕРєСѓРјРµРЅС‚Р°С†РёРё РґР»СЏ РІС‹Р±СЂР°РЅРЅРѕРіРѕ РїСЂРµРґСѓРїСЂРµР¶РґРµРЅРёСЏ.
+1. РћС‚РєСЂРѕР№С‚Рµ С„Р°Р№Р» [HelloWorld.cs](HelloWorldStyle/HelloWorld.cs) Рё РѕС‚С„РѕСЂРјР°С‚РёСЂСѓР№С‚Рµ РєРѕРґ РІ РѕРєРЅРµ СЂРµРґР°РєС‚РѕСЂР°.
+    * РСЃРїРѕР»СЊР·СѓР№С‚Рµ СЃРѕС‡РµС‚Р°РЅРёРµ РєР»Р°РІРёС€ - _Ctrl+K, Ctrl+D_.
+1. РЎРѕР±РµСЂРёС‚Рµ СЂРµС€РµРЅРёРµ, РѕС‚РєСЂРѕР№С‚Рµ РІРєР»Р°РґРєСѓ Error List Рё СЃСЂР°РІРЅРёС‚Рµ СЃРїРёСЃРѕРє РїСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№ РєРѕРјРїРёР»СЏС‚РѕСЂР° СЃ СЃРїРёСЃРєРѕРј, РєРѕС‚РѕСЂС‹Р№ Р±С‹Р» РґРѕ СЌС‚РѕРіРѕ.
+1. РСЃРїСЂР°РІСЊС‚Рµ РІСЃРµ РїСЂРµРґСѓРїСЂРµР¶РґРµРЅРёСЏ РєРѕРјРїРёР»СЏС‚РѕСЂР° РІ С„Р°Р№Р»Рµ [HelloWorld.cs](HelloWorldStyle/HelloWorld.cs).
 
 
-## Дополнительная информация
+## РСЃРїСЂР°РІСЊС‚Рµ РѕС€РёР±РєРё РєРѕРјРїРёР»СЏС‚РѕСЂР°
+
+Р”Р»СЏ РІСЃРµС… РїСЂРѕРµРєС‚РѕРІ СЂРµС€РµРЅРёСЏ РІРєР»СЋС‡РµРЅС‹ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РїСЂРѕРІРµСЂРєРё РЅР° СЃС‚РёР»РёСЃС‚РёС‡РµСЃРєРёРµ РѕС€РёР±РєРё Рё РґРѕР±Р°РІР»РµРЅС‹ Р°РЅР°Р»РёР·Р°С‚РѕСЂС‹ РєРѕРґР°, С‡С‚РѕР±С‹ РїРѕРјРѕС‡СЊ Р’Р°Рј РїРѕРґРґРµСЂР¶РёРІР°С‚СЊ С†РµР»РѕСЃС‚РЅРѕСЃС‚СЊ РєРѕРґРѕРІРѕР№ Р±Р°Р·С‹ Рё РёР·Р±РµР¶Р°С‚СЊ РЅР°РёРІРЅС‹С… РѕС€РёР±РѕРє. Р’СЃРµ РѕС€РёР±РєРё Рё РїСЂРµРґСѓРїСЂРµР¶РґРµРЅРёСЏ РєРѕРјРїРёР»СЏС‚РѕСЂР° C# РґРѕСЃС‚СѓРїРЅС‹ РІ РѕРєРЅРµ Visual Studio [Error List](https://docs.microsoft.com/ru-ru/visualstudio/ide/find-and-fix-code-errors#review-the-error-list).
+
+Р•СЃР»Рё СЃРѕРѕР±С‰РµРЅРёРµ РѕР± РѕС€РёР±РєРµ РёР»Рё РїСЂРµРґСѓРїСЂРµР¶РґРµРЅРёРµ РєРѕРјРїРёР»СЏС‚РѕСЂР° РїРѕСЃС‚Р°РІРёР»Рѕ Р’Р°СЃ РІ С‚СѓРїРёРє, [РѕС‚РєСЂРѕР№С‚Рµ СЃС‚СЂР°РЅРёС†Сѓ РґРѕРєСѓРјРµРЅС‚Р°С†РёРё РѕС€РёР±РєРё РёР»Рё РїСЂРµРґСѓРїСЂРµР¶РґРµРЅРёСЏ](https://docs.microsoft.com/ru-ru/visualstudio/ide/find-and-fix-code-errors#review-errors-in-detail) РёР»Рё Р·Р°РіСѓРіР»РёС‚Рµ РєРѕРґ РѕС€РёР±РєРё РІ РїРѕРёСЃРєРѕРІРёРєРµ.
+
+
+## РЎРѕС…СЂР°РЅРёС‚Рµ РёР·РјРµРЅРµРЅРёСЏ
+
+* [РџРµСЂРµСЃРѕР±РµСЂРёС‚Рµ СЂРµС€РµРЅРёРµ](https://docs.microsoft.com/ru-ru/visualstudio/ide/building-and-cleaning-projects-and-solutions-in-visual-studio) РІ Visual Studio.
+* РћС‚РєСЂРѕР№С‚Рµ [РѕРєРЅРѕ Error List](https://docs.microsoft.com/ru-ru/visualstudio/ide/reference/error-list-window) Рё РїСЂРѕРІРµСЂСЊС‚Рµ, С‡С‚Рѕ РІ РѕРєРЅРµ РЅРµС‚ РѕС€РёР±РѕРє Рё РїСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№ РєРѕРјРїРёР»СЏС‚РѕСЂР°. Р•СЃР»Рё РІ РѕРєРЅРµ РµСЃС‚СЊ РѕС€РёР±РєРё РёР»Рё РїСЂРµРґСѓРїСЂРµР¶РґРµРЅРёСЏ, **РёСЃРїСЂР°РІСЊС‚Рµ РёС…** Рё СЃРЅРѕРІР° РїРµСЂРµСЃРѕР±РµСЂРёС‚Рµ СЂРµС€РµРЅРёРµ.
+* [Р—Р°РїСѓСЃС‚РёС‚Рµ СЋРЅРёС‚-С‚РµСЃС‚С‹ РїСЂРё РїРѕРјРѕС‰Рё Test Explorer](https://docs.microsoft.com/ru-ru/visualstudio/test/run-unit-tests-with-test-explorer). РЈР±РµРґРёС‚РµСЃСЊ, С‡С‚Рѕ РІСЃРµ СЋРЅРёС‚ С‚РµСЃС‚С‹ Р·Р°РІРµСЂС€Р°СЋС‚СЃСЏ СѓСЃРїРµС€РЅРѕ. [РЎРґРµР»Р°Р№С‚Рµ РІСЃРµ СЋРЅРёС‚-С‚РµСЃС‚С‹ Р·РµР»РµРЅС‹РјРё](https://stackoverflow.com/questions/276813/what-is-red-green-testing).
+* РћР±СЏР·СЏС‚РµР»СЊРЅРѕ РїСЂРѕСЃРјРѕС‚СЂРёС‚Рµ РІСЃРµ РІР°С€Рё РёР·РјРµРЅРµРЅРёСЏ **РїРµСЂРµРґ С‚РµРј** РєР°Рє СЃРѕС…СЂР°РЅРёС‚СЊ Р’Р°С€Рё РёР·РјРµРЅРµРЅРёСЏ.
+    * РћС‚РєСЂРѕР№С‚Рµ РІРєР»Р°РґРєСѓ "Changes" РІ РѕРєРЅРµ [Team Explorer](https://docs.microsoft.com/ru-ru/visualstudio/ide/reference/team-explorer-reference).
+    * РџСЂР°РІРѕР№ РєР»Р°РІРёС€РµР№ РјС‹С€Рё РЅР°Р¶РјРёС‚Рµ РЅР° РёР·РјРµРЅРµРЅРЅРѕРј С„Р°Р№Р»Рµ.
+    * РќР°Р¶РјРёС‚Рµ РЅР° РїСѓРЅРєС‚Рµ РјРµРЅСЋ "Compare with Unmodified" С‡С‚РѕР±С‹ РѕС‚РєСЂС‹С‚СЊ РѕРєРЅРѕ СЃСЂР°РІРЅРµРЅРёСЏ.
+* [Р—Р°С„РёРєСЃРёСЂСѓР№С‚Рµ РёР·РјРµРЅРµРЅРёСЏ](https://docs.microsoft.com/ru-ru/azure/devops/repos/git/commits#stage-your-changes) Рё [СЃРѕР·РґР°Р№С‚Рµ РєРѕРјРјРёС‚](https://docs.microsoft.com/ru-ru/azure/devops/repos/git/commits#create-a-commit).
+* [РћС‚РїСЂР°РІСЊС‚Рµ РёР·РјРµРЅРµРЅРёСЏ РІРѕ РІРЅРµС€РЅРёР№ СЂРµРїРѕР·РёС‚РѕСЂРёР№](https://docs.microsoft.com/ru-ru/azure/devops/repos/git/pushing).
+
+
+## Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
 
 * Visual Studio
   * [Getting Started with Visual Studio 2019](https://www.youtube.com/watch?v=1CgsMtUmVgs)
