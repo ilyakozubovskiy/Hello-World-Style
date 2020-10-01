@@ -49,5 +49,4 @@ If a compiler error or warning message is not clear, [review errors details](htt
 * Visual Studio
   * [Getting Started with Visual Studio 2019](https://www.youtube.com/watch?v=1CgsMtUmVgs)
   * [Git Fundamentals](https://www.youtube.com/watch?v=c3482qAzZLQ)
-  * [Navigate through code with the Visual Studio debugger](https://docs.microsoft.com/en-us/visualstudio/debugger/navigating-through-code-with-the-debugger)
   * [Default keyboard shortcuts in Visual Studio](https://docs.microsoft.com/en-us/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio)
