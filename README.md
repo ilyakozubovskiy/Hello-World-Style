@@ -14,7 +14,7 @@ This is a beginner level task for practicing AutoCode tasks management. Translat
     * Click on menu item - _Build\Build Solution_.
     * Or use default keyboard shortcut - _Ctrl+Shift+B_.
 1. Open [Error List](https://docs.microsoft.com/en-us/visualstudio/ide/find-and-fix-code-errors#review-the-error-list) view.
-    * Click on menu item - _View\Error List_.
+    * Click on the menu item - _View\Error List_.
     * Or use default shortcut - _Ctrl+W, E_.
 1. Double-click on a warning in the Error List view. You will get to the [HelloWorld.cs](HelloWorldStyle/HelloWorld.cs) file.
 1. Open Error List view again, and click on a warning "Code" link. You will get to a documentation web-page for a warning.
