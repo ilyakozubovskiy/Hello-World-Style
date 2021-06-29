@@ -11,7 +11,7 @@ This is a beginner level task for practicing AutoCode tasks management. Translat
 ## Complete the Task
 
 1. [Build the solution](https://docs.microsoft.com/en-us/visualstudio/ide/building-and-cleaning-projects-and-solutions-in-visual-studio).
-    * Click on menu item - _Build\Build Solution_.
+    * Click on the menu item - _Build\Build Solution_.
     * Or use default keyboard shortcut - _Ctrl+Shift+B_.
 1. Open [Error List](https://docs.microsoft.com/en-us/visualstudio/ide/find-and-fix-code-errors#review-the-error-list) view.
     * Click on menu item - _View\Error List_.
